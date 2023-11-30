@@ -9,43 +9,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>LoginForm</title>
 </head>
-<style>
-    .container {
-        border: 1px solid #efefef;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        max-width: 765px;
-        box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
-    }
 
-    .project-content {
-        font-size: 32px;
-        font-weight: bold;
-        color: black;
-        justify-content: center;
-        display: flex;
-        padding: 100px;
-    }
-</style>
 <body>
-<div class="project-content"><span>Login Form</span></div>
+<p class="project-title">Login Form</p>
 <div class="container">
-    <div class="right-side">
-        <figure>
-            <img class="img-responsive" src="assets/img/form-img.jpg" alt="">
-        </figure>
-    </div>
     <div class="left-side">
+        <img class="img-responsive" src="assets/img/form-img.jpg" alt="">
+    </div>
+    <div class="right-side">
         <div class="social-login">
-            <a href=""><i class="fab fa-facebook"></i></a>
-            <a href=""><i class="fab fa-google"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-google"></i></a>
         </div>
-        <form action="" method="get">
+        <form action="">
             <div class="input-group">
-                <label for="username">Username</label>
-                <input type="text" name="" id="username" placeholder="username">
+                <label for="user-name">username</label>
+                <input type="text" name="" id="user-name" placeholder="username">
                 <span></span>
             </div>
             <div class="input-group">
@@ -54,11 +33,11 @@
                 <span></span>
             </div>
             <div class="input-group">
-                <label for="password">RememberMe</label>
-                <input type="checkbox" name="" id="RememberMe">
-                <span></span>
+                <label for="remember-me">remember-me</label>
+                <input type="checkbox" name="" id="remember-me">
+
             </div>
-            <input type="submit" value="login">
+            <input type="submit" value="Login">
         </form>
     </div>
 </div>
